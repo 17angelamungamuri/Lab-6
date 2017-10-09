@@ -1,0 +1,28 @@
+class Customer
+{
+  firstName;
+  lastName;
+  int theirAge;
+  int customerNum;
+  
+ 
+}
+
+class Account
+{
+  long acctNum;
+  double acctBalance;
+  firstName;
+  lastName;
+  1 -- * Order;
+  1 -- 1 Customer;
+}
+
+class Order
+{
+  long acctNum;
+  order orderNum;
+  creationDate;
+  deliveryDate;
+}
+
